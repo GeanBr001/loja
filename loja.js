@@ -5,13 +5,13 @@ const computador = {
   ligado: false,
 
   ligar: function () {
-    this.ligar = true;
+    this.ligado = true;
     console.log("computador ligado");
   },
 };
 
 computador.ligar();
 
-console.log(
+/*console.log(
   `Marca: ${computador.marca} \nModelo: ${computador.modelo} \nAno: ${computador.ano} `
-);
+);*/
